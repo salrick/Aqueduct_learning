@@ -1,0 +1,10 @@
+database:
+  host: 13.115.53.84
+  port: 5432
+  username: iflyup
+  password: 729at3663
+  databaseName: WishYou6_db
+
+
+  aqueduct db upgrade --connect postgres://iflyup:729at3663@13.115.53.84:5432/heroes
+  aqueduct db upgrade --connect postgres://heroes_user:password@localhost:5432/heroes
